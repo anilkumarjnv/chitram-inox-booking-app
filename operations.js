@@ -4,10 +4,10 @@ import mysql from 'mysql2';
 
 
 const connection = mysql.createPool({
-    host:'ckshdphy86qnz0bj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-    user : 'dhktko5acy2uts3d',
-    password: 'sgdbrkvaqqi62sdy',
-    database: 'k40mr47v586a7mtn'
+    host:'jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user : 'awfjubu3z6v01i64',
+    password: 'zkykup5ngwv242pt',
+    database: 'ybq3iep1eq6z1vml'
 }).promise()
 
 export async function readUser(username) {
